@@ -32,8 +32,8 @@ namespace GitHubRezip
                 }
             });
             content.Headers.ContentType = new MediaTypeHeaderValue("application/zip");
-            content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment");
-            content.Headers.ContentDisposition.FileName = zipName;
+            //content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment");
+            //content.Headers.ContentDisposition.FileName = zipName;
             return content;
         }
 

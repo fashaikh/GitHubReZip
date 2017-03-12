@@ -36,6 +36,6 @@ namespace GitHubRezip
         private void RegisterRoutes(HttpConfiguration config)
         {
             config.Routes.MapHttpRoute("rezip", "{user}/{project}/{branch}", new { controller = "ReZip", action = "GetZip", authenticated = false }, new { verb = new HttpMethodConstraint(HttpMethod.Get.ToString()) });
-        }///{*gitHubZipUrl2}/{*gitHubZipUrl3}/{*gitHubZipUrl4}/{*gitHubZipUrl5}/{*gitHubZipUrl6}/{*gitHubZipUrl7}/{*gitHubZipUrl8}/{*gitHubZipUrl9}/{*gitHubZipUrl10}
+        }
     }
 }

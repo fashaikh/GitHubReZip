@@ -2,7 +2,6 @@
 using System.IO;
 using System.IO.Abstractions;
 using System.IO.Compression;
-using Ionic.Zip;
 
 namespace GitHubRezip
 {
