@@ -18,7 +18,7 @@ namespace GitHubRezip.Controllers
         private static TelemetryClient telemetry = new TelemetryClient();
 
         [HttpGet]
-        // GET: /api/ReZip/Azure-Samples/functions-dotnet-sas-token/archive/master
+        // GET: /Azure-Samples/functions-dotnet-sas-token/archive/master
         public async Task<HttpResponseMessage> GetZip(string user, string project, string branch)
         {
             telemetry.TrackEvent("Re-Zip");
