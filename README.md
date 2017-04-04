@@ -22,14 +22,17 @@ The ReZip proxy does an in-memory re-zip  and outputs a zip stream, with a funct
 
 
 # Example
-Sample function app github repo:
-https://github.com/Azure-Samples/functions-dotnet-sas-token
 
-Sample ARM deploy template : 
+To try this out. click the blue `Deploy to Azure` button here:
+https://github.com/fashaikh/azure-quickstart-templates/tree/master/101-function-app-create-dynamic
+
+This deploys the following ARM template : 
 https://github.com/fashaikh/azure-quickstart-templates/blob/master/101-function-app-create-dynamic/azuredeploy.json
 
+tied to this function 
+https://github.com/Azure-Samples/functions-dotnet-sas-token
 
-The directory structure for the functionsapp github repo should be the same as under the wwwroot folder 
+The directory structure for the FunctionApp GitHub repo should be the same as under the wwwroot folder 
 For more details look here: https://github.com/Microsoft/azure-docs/blob/master/includes/functions-folder-structure.md
 
 
