@@ -12,8 +12,8 @@ Plus you can mix and match functions from different repositories into a single f
 You use an ARM template to do webdeploy to a new or existing Function App
 For the package URL, use the API below, which creates a zip file with the right folder structure
 
-Basically to deploy from `master` branch of  https://github.com/Azure-Samples/functions-dotnet-sas-token/
-You point msdeploy in your arm template to
+Basically to deploy from `master` branch of  https://github.com/Azure-Samples/functions-dotnet-sas-token/, 
+you point msdeploy in your ARM template to
 https://http://maws-zip.trafficmanager.net/Azure-Samples/functions-dotnet-sas-token/master
 
 This uses msdeploy to deploy the .zip file that GitHub /zip api spits out. 
