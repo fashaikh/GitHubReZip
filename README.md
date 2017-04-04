@@ -14,7 +14,7 @@ For the package URL, use the API below, which creates a zip file with the right 
 
 Basically to deploy from `master` branch of  https://github.com/Azure-Samples/functions-dotnet-sas-token/, 
 you point msdeploy in your ARM template to
-https://maws-zip.trafficmanager.net/Azure-Samples/functions-dotnet-sas-token/master
+http://maws-zip.trafficmanager.net/Azure-Samples/functions-dotnet-sas-token/master (https should also work. Will switch to https after adding cert)
 
 This uses msdeploy to deploy the .zip file that GitHub /zip api spits out. 
 However the folder structure in the /zip api is one level too deep for function apps. 
