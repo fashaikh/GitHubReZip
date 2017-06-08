@@ -4,7 +4,7 @@ This proxy allows you to zip deploy your functions/function app/appservice witho
 This allows the deployer to make changes on the function offline, and use the rich capabilites of the functions portal  
 to tweak it. 
 
-Plus you can mix and match functions from different repositories into a single function app,a s logn as the names are different.
+Plus you can mix and match functions from different repositories into a single function app,as long as the names are different.
 
 
 # How does this work:
