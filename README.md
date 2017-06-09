@@ -50,5 +50,5 @@ wwwroot
  | | - run.csx
 ```
 
-#Note 
+# Note 
 This has been tested for upto 600 Mb of zipped content. The trafficmanager location currently points to West US and West Europe locations. based on demand we can scale out to other regions.
